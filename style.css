@@ -19,6 +19,7 @@
 .navbar ul li a{
     text-decoration: none; 
     color: white;
+    font-weight: bold;
 }
 
 .navbar ul li a:hover {
@@ -80,7 +81,7 @@ button:hover {
     background: #b5651d  ;
 }
 
-.explore , .best-sellers {
+#women , #men {
     margin: 0 auto;
     width: 100%;
     background-color: burlywood;
@@ -88,7 +89,7 @@ button:hover {
     text-transform: uppercase;   
 }
   
-.explore h3, .best-sellers h3 {
+#women h3 , #men  h3 {
     color: #333;
     margin-top: 2rem;
 }
@@ -119,9 +120,9 @@ button:hover {
     font-size: 0.8rem;
     color: #666;
 }
-table img {
-    width: 300px; 
-    height: 300px;
+#women img ,#men img {
+    width: 100%; 
+    height: 50vh;
     display: block;
     border-radius: 18px;
    
