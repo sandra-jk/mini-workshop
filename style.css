@@ -133,8 +133,21 @@ table img {
  }
 
 
+ .icon-container:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    position: relative; /* Needed for text positioning */
+  }
+  
+  .icon-container:hover:after {
+    content: attr(title); /* Display the title as text */
+    position: absolute;
+    top: 100%; /* Position text below the icon */
+    left: 0; /* Align text to the left */
+    padding: 5px; /* Add some padding to the text */
+    background-color: #ddd; /* Set background color for the text */
+    color: black; /* Set text color */
+    font-size: 0.8rem; /* Adjust text size (optional) */
 
-
-
+  }
  
   
