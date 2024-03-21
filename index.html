@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
@@ -22,20 +23,24 @@
             <li> <a href="#women">WOMEN</a></li>
             <li><a href="#men">MEN</a></li>
             <li> <a href="#"><span class="fa fa-heart"></span><span>FAV</span></li>
-            <li><a href="#">CART</a></li>
-            <li><a href="#">PROFILE</a></li>   
-            <li><input type="text" placeholder="Search..."></li> 
+            <li><a href="cart.html">CART</a></li>
+            <li><a href="profile.html">PROFILE</a></li>   
+            <li>
+                <input type="text" placeholder="Search...">
+                <span class="search-icon"><i class="fas fa-search"></i></span>
+              </li>
         </ul>
     </div>
     <!--Introductory image , message and shop now button-->
     <div class="intro-text">
-        <h1>Welcome to FashionBuddy</h1> <br>
-        <h2>Your number online one stop shop for all your fashion needs</h2>
+        <h1 class="fw-bold">Welcome to FashionBuddy</h1> <br>
+        <h2 class="fw-bold">Your number one online stop shop for all your fashion needs</h2>
         <div><button type="button">SHOP NOW</button></div>
     </div>
 </div>  
     
     <!--Explore New Section-->
+    
     <section id="women" class="p-5 ">
         <div class="container">
             <h2 class="text-center">WOMEN</h2><br>
@@ -163,7 +168,12 @@
             </div>
         </div>
     </section>
-    <footer><p>Happy Shopping!</p></footer>
+    <footer class="container-fluid">
+        <p>Happy Shopping!</p>
+        <div class="container">
+    <p class="text-center">&copy; 2024 FashionBuddy</p>
+</div>
+    </footer>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
